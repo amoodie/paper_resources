@@ -1,20 +1,15 @@
 NOTE: source code files from this project will be uploaded when the manuscript has been submitted.
 
-This file provides documentation to the wrapper used to explore the model develop​
-6
-​
-7
-ed in "Modeling deltaic lobe-building cycles and avulsions of the Yellow River delta, China" (Moodie et al., in prep).
+This file provides documentation to the wrapper used to explore the model develop​ed in "Modeling deltaic lobe-building cycles and avulsions of the Yellow River delta, China" (Moodie et al., in prep).
 
-![demo image](./private/guidemo_img.png "Demo of GUI")
+[demo image](./private/demo_lobe.png)
 
-[demo gif here](./private/guidemo_gif.gif)
+# 1.0 Wrapper call syntax
+A call to the wrapper looks like this:
+```
+[s] = virtualdelta_wrapper(preavulThresh, preavulTrigg, mouSwitch, Qwcall, Qwnum)
+```
 
-# 1.0 Installation and setup guides
-
-Visit the section of the text below for more information on installing and executing the FloodingModule program on your computer. 
-
-_Note that if you have a full Matlab license,_ there is a section at the end for running the module from source. This method is recommended over using the MCR if possible.
 
 ## 1.1 Windows (Windows 10)
 * Visit the 'download' folder of this repository ([https://github.com/amoodie/research_outreach/tree/master/flooding_risk/download](./download)) and download the 64-bit Windows 10 FloodingModule installer.
