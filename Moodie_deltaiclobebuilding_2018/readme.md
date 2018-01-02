@@ -1,6 +1,10 @@
-This flooding risk module is intended to help educators demonstrate some basic physics of why rivers flood. A computer code with a fully interactive graphical user interface module (GUI) is interacted with alongside worksheets designed for students of varying ages.
+NOTE: source code files from this project will be uploaded when the manuscript has been submitted.
 
-This readme file provides an overview of the installation and setup process, as well as a brief description of the module worksheets available.
+This file provides documentation to the wrapper used to explore the model develop​
+6
+​
+7
+ed in "Modeling deltaic lobe-building cycles and avulsions of the Yellow River delta, China" (Moodie et al., in prep).
 
 ![demo image](./private/guidemo_img.png "Demo of GUI")
 
