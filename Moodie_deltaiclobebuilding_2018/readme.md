@@ -2,14 +2,15 @@ NOTE: source code files from this project will be uploaded when the manuscript h
 
 This file provides documentation to the wrapper used to explore the model develop​ed in "Modeling deltaic lobe-building cycles and avulsions of the Yellow River delta, China" (Moodie et al., in prep).
 
-[demo image](./private/demo_lobe.png)
+![demo image](./private/demo_lobe.png "demo lobe growth")
 
 # 1.0 Wrapper call syntax
 A call to the wrapper looks like this:
 ```
 [s] = virtualdelta_wrapper(preavulThresh, preavulTrigg, mouSwitch, Qwcall, Qwnum)
 ```
-
+- `preavulThresh` is the threshold amoutn of channel bed aggradation necessary for avulsion. It is normalized to the bankful flow depth (i.e., fractional).
+- `preavulTrigg` is the
 
 ## 1.1 Windows (Windows 10)
 * Visit the 'download' folder of this repository ([https://github.com/amoodie/research_outreach/tree/master/flooding_risk/download](./download)) and download the 64-bit Windows 10 FloodingModule installer.
