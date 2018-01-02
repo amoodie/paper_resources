@@ -23,11 +23,15 @@ To run the model with a setup threshold of 60%, a trigger condition requiring 10
 ```
 
 # 2.0 Input options
-## preAvulThresh
-The amount of aggradation of the channel bed required for avulsion can be any numeric. It should be noted that the value is normalized to the bankfull flow depth, so a `preAvulThresh` of unity implies aggradation of one complete channel depth before avulsion. 
+## 2.1 preAvulThresh
+The amount of aggradation of the channel bed required for avulsion (i.e., superelevation). This input can be any numeric greater than zero. The value is normalized to the bankfull flow depth, so a `preAvulThresh` of unity requires aggradation of one complete channel depth before avulsion. Larger values can be used, though the model may become unstable for very large setup thresholds.
+## 2.2 preAvulTrigg
+The amount of overbank flow required for avulsion. This input can be any numeric greater than zero or NaN to omit the trigger condition requirement. The value is normalized to the bankfull flow depth, so a `preAvulTrigg` of 0.1 necessitates 10% of the flow depth is above the levee for avulsion. The trigger condition primarily serves to eliminate avulsions occurring at very low discharges, and the model result is not particularly sensitive to trigger conditions >0.05.
+## 2.3 mouSwitch
+## 2.4 QwSwitch 
+## 2.5 QwNum 
 
-
-# 3.0 Disclaimer
+# 3.0 Acknowledgements and disclaimer
 The model was created by Andrew J. Moodie as part of an National Science Foundation funded research project assessing the sustainability of anthropogenically influenced deltas.
 The research is supported by Grant No. 1427262 and an NSF Graduate Research Fellowship to A.J.M. under Grant No. 1450681.
 Any opinion, findings, and conclusions or recommendations expressed in this material are those of the author(s) and do not necessarily reflect the views of the National Science Foundation.
