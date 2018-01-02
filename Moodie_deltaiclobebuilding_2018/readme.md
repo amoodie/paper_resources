@@ -2,7 +2,7 @@ _NOTE: source code files from this project will be uploaded into this folder whe
 
 This file provides documentation to the wrapper used to explore the model develop​ed in "Modeling deltaic lobe-building cycles and avulsions of the Yellow River delta, China" (Moodie et al., in prep).
 
-<img src="./private/demo_lobe.png" alt="Demo image of lobe growth" style="width: 200px;"/>
+<img src="./private/demo_lobe.png" alt="Demo image of lobe growth" width="200">
 
 # 1.0 Wrapper call syntax
 A call to the wrapper looks like this:
