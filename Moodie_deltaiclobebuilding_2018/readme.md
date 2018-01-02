@@ -1,4 +1,4 @@
-NOTE: source code files from this project will be uploaded when the manuscript has been submitted.
+_NOTE: source code files from this project will be uploaded into this folder when the manuscript has been submitted._
 
 This file provides documentation to the wrapper used to explore the model develop​ed in "Modeling deltaic lobe-building cycles and avulsions of the Yellow River delta, China" (Moodie et al., in prep).
 
@@ -7,10 +7,14 @@ This file provides documentation to the wrapper used to explore the model develo
 # 1.0 Wrapper call syntax
 A call to the wrapper looks like this:
 ```
-[s] = virtualdelta_wrapper(preavulThresh, preavulTrigg, mouSwitch, Qwcall, Qwnum)
+[s] = virtualdelta_wrapper(preAvulThresh, preAvulTrigg, mouSwitch, QwSwitch, QwNum)
 ```
-- `preavulThresh` is the threshold amoutn of channel bed aggradation necessary for avulsion. It is normalized to the bankful flow depth (i.e., fractional).
-- `preavulTrigg` is the
+
+-`preAvulThresh` is the threshold amount of channel bed aggradation necessary for avulsion. It is normalized to the bankfull flow depth (i.e., fractional).
+-`preAvulTrigg` is the amount of overbank flow necessary for avulsion. It is normalized to the bankfull fow depth (i.e., fractional).
+-`mouSwitch` is the control for whether, and in what manner, lobe progradation occurs. See section "Input options" below for available options.
+-`QwSwitch` is the control for the water discharge curve used in the model run. See section "Input options" below for available options.
+-`QwNum` is the input "shape factor" that impacts the selected water discharge curve in the model. See section "Input options" below for available options.
 
 ## 1.1 Windows (Windows 10)
 * Visit the 'download' folder of this repository ([https://github.com/amoodie/research_outreach/tree/master/flooding_risk/download](./download)) and download the 64-bit Windows 10 FloodingModule installer.
