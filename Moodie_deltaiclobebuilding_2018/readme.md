@@ -1,6 +1,6 @@
-_NOTE: source code files from this project will be uploaded into this folder when the manuscript has been submitted._
+**_NOTE: source code files from this project will be uploaded into this folder when the manuscript has been submitted._**
 
-This file provides documentation to the wrapper used to explore the model develop​ed in "Modeling deltaic lobe-building cycles and avulsions of the Yellow River delta, China" (Moodie et al., in prep). Documentation for specific portions of the model is included as line comments throughout the source code.
+This file provides documentation to the wrapper used to explore the model develop​ed in "Modeling deltaic lobe-building cycles and avulsions of the Yellow River delta, China" (Moodie et al., in prep). _Documentation for specific portions of the model is included as line comments throughout the source code._
 
 <img src="./private/demo_lobe.png" alt="Demo image of lobe growth" width="600" align="middle">
 
@@ -19,7 +19,7 @@ A call to the wrapper looks like this:
 
 To run the model with a setup threshold of 60%, a trigger condition requiring 10% of the flow depth to go overbank, enabled lobe progradation, and a repeating cycle of discharge from the Yellow River use:
 ```
-[s] = virtualdelta_wrapper(0.6, 0.1, 'rem', 'mean', NaN)
+[s] = virtualdelta_wrapper(0.6, 0.1, 'on', 'mean', NaN)
 ```
 
 # 2.0 Input options
@@ -28,8 +28,12 @@ The amount of aggradation of the channel bed required for avulsion (i.e., supere
 ## 2.2 preAvulTrigg
 The amount of overbank flow required for avulsion. This input can be any numeric greater than zero or NaN to omit the trigger condition requirement. The value is normalized to the bankfull flow depth, so a `preAvulTrigg` of 0.1 necessitates 10% of the flow depth is above the levee for avulsion. The trigger condition primarily serves to eliminate avulsions occurring at very low discharges, and the model result is not particularly sensitive to trigger conditions >0.05.
 ## 2.3 mouSwitch
-## 2.4 QwSwitch 
-## 2.5 QwNum 
+The switch to control the development of lobes in the model. Input options are `off` and `on`, which disables and enables lobe progradation, respectively.
+## 2.4 QwSwitch
+The switch to control the water discharge curve used in the model run. Input options are `con`, `mean`, and `art`. The option `con` produces a curve of constant value where the value is determined by the `QwNum` option which is in units of m3/s. The option `mean` uses a curve designed for the Yellow River simulations which utilizes a repeating cycle of daily-average discharge measurements, averaged over the period 1950-1990 (left in figure below); this option ignores anything in the `QwNum` option. The `art` option produces a repeating artificial curve that mimics a single summer flood season where the `QwNum` option determines the magnitude of the flood in units of m3/s (right in figure below).
+<img src="./private/water_curves.png" alt="water curve options" width="600" align="middle">
+## 2.5 QwNum
+The control for the magnitude of water discharge curve used in the model. See section 2.4 on `QwSwitch` option for details.
 
 # 3.0 Acknowledgements and disclaimer
 The model was created by Andrew J. Moodie as part of an National Science Foundation funded research project assessing the sustainability of anthropogenically influenced deltas.
