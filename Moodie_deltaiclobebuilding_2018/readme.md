@@ -1,6 +1,6 @@
 **_NOTE: source code files from this project will be uploaded into this folder when the manuscript has been submitted._**
 
-This file provides documentation to the wrapper used to explore the model develop​ed in "Modeling deltaic lobe-building cycles and avulsions of the Yellow River delta, China" (Moodie et al., in prep). _Documentation for specific portions of the model is included as line comments throughout the source code._
+This file provides documentation to the wrapper used to explore the model develop​ed in "Modeling deltaic lobe-building cycles and avulsions of the Yellow River delta, China" (Moodie et al., in prep). See manuscript for a complete description of the model framework and parameterization. _Documentation for specific portions of the model code is included as line comments throughout the source code._
 
 <img src="./private/demo_lobe.png" alt="Demo image of lobe growth" width="600" align="middle">
 
@@ -12,7 +12,7 @@ A call to the wrapper looks like this:
 
 - `preAvulThresh` is the "setup threshold", or the amount of channel bed aggradation necessary for avulsion. It is normalized to the bankfull flow depth (i.e., fractional).
 - `preAvulTrigg` is the "trigger threshold", ot the amount of overbank flow necessary for avulsion. It is normalized to the bankfull fow depth (i.e., fractional).
-- `mouSwitch` is the control for whether, and in what manner, lobe progradation occurs. See section "Input options" below for available options.
+- `mouSwitch` is the control for whether, lobe progradation occurs. See section "Input options" below for available options.
 - `QwSwitch` is the control for the water discharge curve used in the model run. See section "Input options" below for available options.
 - `QwNum` is the input "shape factor" that impacts the selected water discharge curve in the model. See section "Input options" below for available options.
 - `s` is the output storage structure which contains a record of the delta evolution.
@@ -31,7 +31,7 @@ The amount of overbank flow required for avulsion. This input can be any numeric
 The switch to control the development of lobes in the model. Input options are `off` and `on`, which disables and enables lobe progradation, respectively.
 ## 2.4 QwSwitch
 The switch to control the water discharge curve used in the model run. Input options are `con`, `mean`, and `art`. The option `con` produces a curve of constant value where the value is determined by the `QwNum` option which is in units of m3/s. The option `mean` uses a curve designed for the Yellow River simulations which utilizes a repeating cycle of daily-average discharge measurements, averaged over the period 1950-1990 (left in figure below); this option ignores anything in the `QwNum` option. The `art` option produces a repeating artificial curve that mimics a single summer flood season where the `QwNum` option determines the magnitude of the flood in units of m3/s (right in figure below).
-<img src="./private/water_curves.png" alt="water curve options" width="600" align="middle">
+<img src="./private/water_curves.png" alt="water curve options" width="500" align="middle">
 ## 2.5 QwNum
 The control for the magnitude of water discharge curve used in the model. See section 2.4 on `QwSwitch` option for details.
 
