@@ -11,7 +11,7 @@ A call to the wrapper looks like this:
 ```
 
 - `preAvulThresh` is the "setup threshold", or the amount of channel bed aggradation necessary for avulsion. It is normalized to the bankfull flow depth (i.e., fractional).
-- `preAvulTrigg` is the "trigger threshold", ot the amount of overbank flow necessary for avulsion. It is normalized to the bankfull fow depth (i.e., fractional).
+- `preAvulTrigg` is the "trigger threshold", or the amount of overbank flow necessary for avulsion. It is normalized to the bankfull fow depth (i.e., fractional).
 - `mouSwitch` is the control for whether, lobe progradation occurs. See section "Input options" below for available options.
 - `QwSwitch` is the control for the water discharge curve used in the model run. See section "Input options" below for available options.
 - `QwNum` is the input "shape factor" that impacts the selected water discharge curve in the model. See section "Input options" below for available options.
