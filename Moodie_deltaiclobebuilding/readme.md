@@ -5,10 +5,12 @@ This file provides documentation to the wrapper used to explore the model develo
 ## Manuscript
 The manuscript detailing this model was published in JGR in 2019:
 ```
-reference to go here
+Moodie, Andrew J., Jeffrey A. Nittrouer, Hongbo Ma, Brandee N. Carlson, Austin J. Chadwick, Michael P. Lamb, and Gary Parker (2019). “Modeling deltaic lobe-building and
+channel avulsions for the Yellow River delta, China.” In: Journal of Geophysical Research:
+Earth Surface.
 ```
 
-A preprint of the manuscript and supplement is available [UPDATE ME](here).
+A preprint of the manuscript and supplement is available [from EarthArXiv](https://eartharxiv.org/y62sv/).
 
 ## Model
 The model (everything included under the `model` folder in this root directory) is split across many functions.
