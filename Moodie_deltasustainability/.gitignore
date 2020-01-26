@@ -1,0 +1,45 @@
+# Windows default autosave extension
+*.asv
+
+# OSX / *nix default autosave extension
+*.m~
+
+# Compiled MEX binaries (all platforms)
+*.mex*
+
+# Packaged app and toolbox files 
+*.mlappinstall 
+*.mltbx 
+  
+# Generated helpsearch folders 
+helpsearch*/ 
+
+# Simulink code generation folders
+slprj/
+sccprj/
+
+# Simulink autosave extension
+*.autosave
+
+# Octave session info
+octave-workspace
+
+# sublime
+*.sublime-project
+*.sublime-workspace
+
+# don't sync any spreadsheets
+*.ods
+
+# don't sync any output data
+output_data/
+
+# dont' sync figs or movies
+figs/
+movies/
+*.eps
+*.pdf
+
+# any .mat files in the main by accident
+*.mat
+
