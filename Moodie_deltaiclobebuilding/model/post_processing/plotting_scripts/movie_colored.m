@@ -6,7 +6,7 @@ function movie_colored(movFig, data_path, nprint, save_path)
         warning('assuming data stucture of s and d instead of path')
         s = data_path.s;
         d = s.d;
-        cfg = data_path.cfg;
+        %cfg = data_path.cfg;
     end
 
     % convenience
@@ -41,12 +41,14 @@ function movie_colored(movFig, data_path, nprint, save_path)
     
     % datums
     baselinevect = -20 * ones(nx, 1);
+    % timelinevect = ; % length needs to be set each time
     ymax = max(s.mou_idx)*dx/1000 * 1.1;
     ymin = nanmin(s.avul)*dx/1000 * 0.975;
     gammapexxy = [cosd(d.gamm/2)*(d.gammapex), sind(d.gamm/2)*(d.gammapex)];
+%     rad_ixy = [cosd(d.gamm/2)*(s.rad(1)), sind(d.gamm/2)*(s.rad(1))];
     
     x_norm = x - s.rad(1); % normalization x vector for rad_i for long profiles
-    max_x = ((max(s.mou_idx)*dx)- s.rad(1))*1.5; % max x limit for long profiles
+    max_x = max([((max(s.mou_idx)*dx)- s.rad(1))*1.5, 20e3]); % max x limit for long profiles
     
     [plan_i] = make_planform(x, d.gamm, d.gammapex, s.rad(1), false);
     xy_norm = [plan_i(end, 1), plan_i(1, 2)]; % normalization x and y scalar for planform plots
@@ -56,8 +58,8 @@ function movie_colored(movFig, data_path, nprint, save_path)
     max_xy = [cosd(d.gamm/2)*(max(s.mou_idx)*dx), sind(d.gamm/2)*(max(s.mou_idx)*dx)]*1.1 - xy_norm; % max xy limit for planform profiles
     
     %%% FOR MANUAL X LIMS
-    % max_x = 40e3;
-    % max_xy = [cosd(d.gamm/2)*(s.rad(1)+max_x), sind(d.gamm/2)*(s.rad(1)+max_x)]*1.1 - xy_norm; % max xy limit for planform profiles
+%     max_x = 40e3;
+%     max_xy = [cosd(d.gamm/2)*(s.rad(1)+max_x), sind(d.gamm/2)*(s.rad(1)+max_x)]*1.1 - xy_norm; % max xy limit for planform profiles
     
     figure(movFig);
     for f = 1:length(pidx)
@@ -120,7 +122,7 @@ function movie_colored(movFig, data_path, nprint, save_path)
             ylim([-10 8])
             xlabel('x distance (km)','FontSize', 14);
             ylabel('z distance (m)','FontSize', 14);
-            set(gca, 'LineWidth', 1.5, 'FontSize', 10, 'XColor', 'k', 'YColor', 'k');
+            set(gca, 'LineWidth', 1.5, 'FontSize', 10, 'XColor', 'k', 'YColor', 'k', 'ticklabelinterpreter', 'latex');
             box on
             set(gca, 'Layer', 'top')
         hold off
@@ -173,11 +175,14 @@ function movie_colored(movFig, data_path, nprint, save_path)
                 'LineWidth', 1.5, 'Color', Cwater2, 'LineStyle', '-'); % river centerline
             
             axis equal
+%             xlim([0.3*L/1000 0.5*L/1000]);
+%             ylim([0.3*L/1000 0.5*L/1000])
             xlim([gammapexxy_norm(1)/1000 max_xy(1)/1000]);
             ylim([gammapexxy_norm(2)/1000 max_xy(2)/1000])
-            xlabel('x` distance (km)','FontSize', 14);
-            ylabel('y` distance (km)','FontSize', 14);
-            set(gca, 'LineWidth', 1.5, 'FontSize', 10, 'XColor', 'k', 'YColor', 'k');
+            xlabel('x'' distance (km)','FontSize', 14);
+            ylabel('y'' distance (km)','FontSize', 14);
+            set(gca, 'LineWidth', 1.5, 'FontSize', 10, 'XColor', 'k', 'YColor', 'k', 'ticklabelinterpreter', 'latex');
+
             box on
             set(gca, 'Layer', 'top')
         hold off
@@ -186,6 +191,7 @@ function movie_colored(movFig, data_path, nprint, save_path)
         subplot(2, 2, 4)
         cla
         hold on
+        if exist('cfg')
             if strcmp(cfg.Qw_str, 'historical')
                 % Qing case
                 qwdates = datenum('1976-01-01'):datenum('1996-12-31');
@@ -221,6 +227,7 @@ function movie_colored(movFig, data_path, nprint, save_path)
                 xlabel('dist. from initial (km)','FontSize', 14);
                 
             end
+        end
             
             
             set(movFig, 'Pos', [50 100 650 650], 'PaperPositionMode', 'auto', 'InvertHardcopy', 'off')
