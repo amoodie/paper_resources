@@ -10,7 +10,15 @@ Michael P. Lamb, and Gary Parker (in preparation). "Suspended-sediment induced s
 River, China." In: Water Resources Research.
 ```
 
-<!-- A preprint of the manuscript and supplement is available [from EarthArXiv](nolink). -->
+A preprint of the manuscript and supplement is available [from EarthArXiv](https://eartharxiv.org/rmhx4/).
+
+
+## Unprocessed data
+The data can be found [on Zenodo](https://zenodo.org/record/3457639).
+If you use these data, please cite the Zenodo dataset.
+
+The scripts included in this repository process this data, and produce all of the plots (and many more) in the manuscript.
+
 
 ## Processing code
 The processing code works by operating four files in the following sequence:
@@ -20,9 +28,32 @@ The processing code works by operating four files in the following sequence:
 4. MakeSelectedPlots.m
 
 
-## Data
-The data can be found [on Zenodo](https://zenodo.org/record/3457639).
-If you use these data, please cite the Zenodo dataset.
+## Post-processed dataset
+Included with this repository are several postprocessed datasets, required to run the script.
+If you use these data, please cite this manuscript, and the [Zenodo dataset](https://zenodo.org/record/3457639).
+
+The file `data/toSelectedPlots.mat` contains the Yellow River data, processed for running the script `MakeSelectedPlots.m`.
+Other datasets needed for this script are also included in `data/`.
+
+The container `data/toSelectedPlots.mat` has structures inside:
+
+* `bed`
+* `df`
+* `entr`
+* `idx`
+* `jt`
+* `mods`
+* `nearbed`
+* `reg`
+* `sdif`
+* `station`
+
+See a complete description of these structures at [`data_description.md`](data_description.md).
+
+Additional structures included in `data` are:
+
+* `wright_dissertation_combined.mat` which is loaded into the script as `WP`
+* `stratificationFieldDataParameterSpace.mat`
 
 
 ## Acknowledgments and disclaimer
