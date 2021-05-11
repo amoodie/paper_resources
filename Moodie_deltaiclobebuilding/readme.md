@@ -41,6 +41,9 @@ There are also a number of undocumented plotting functions and utilities in the 
 The data derived from satellite image processing are included in the `data` folder below this root directory.
 There are multiple input discharge datasets included in the `model/input_data` folder.
 
+Additionally, avulsion data (Figure 3a) are included in the `data` folder.
+This table includes measurements from this study, as well as from previous work.
+
 
 ## Acknowledgments and disclaimer
 The model was created by Andrew J. Moodie as part of an National Science Foundation funded research project assessing the sustainability of anthropogenically influenced deltas.
