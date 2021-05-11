@@ -33,12 +33,15 @@ octave-workspace
 
 # don't sync any output data
 output_data/
+dataExport/
 
 # dont' sync figs or movies
 figs/
+figures/
 movies/
 *.eps
 *.pdf
+*.png
 
 # any .mat files in the main by accident
 *.mat
