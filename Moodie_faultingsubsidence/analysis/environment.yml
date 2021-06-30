@@ -1,0 +1,27 @@
+name: faults
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.7
+  - scipy[version='>=1.5']
+  - matplotlib[version='>3.0.2']
+  - netcdf4
+  - pyyaml[version='>=5.1']
+  - numpy[version='>=1.16']
+  - numba
+  - sphinx
+  - pytest-mpl
+  - h5netcdf
+  - xarray
+  - shapely
+  - scikit-image
+  - pooch
+  - h5py
+  - jupyterlab
+  - rasterio
+  - geopandas
+  - statsmodels
+  - odfpy
+  - tqdm
+prefix: /opt/anaconda3/envs/faults
