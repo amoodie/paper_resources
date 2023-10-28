@@ -1,0 +1,92 @@
+crater,sol imaged,diameter (m),depth qualifier,depth (m),morphology,morphologic class,estimated age,degradation rate (m/Myr),footnote
+Eagle,1-60,22,,2,"Sandy interior, limited exposed outcrop mostly planned off along portion of interior wall, ripples cover slightly raised rim",5,4-10,0.34,"1, 2"
+Fram,83-85,10,<,1,"Blocky rim with eroded blocks, sandy interior, ejecta blocks planed off, ripples merge with elevated rim",3,0.6-2,1,
+NW Endurance,93,3,<,0.1,"Sandy rimless3 depressions, ripples mergewith rims",4,2-4,0.17,*
+Endurance,95-315,150,,21,"Scalloped uplifted rim, bedrock planned off, no ejecta on plains, sand dunes in interior",4,2-4,3,2
+Argo,360,10,~,0.2,"Sandy depression, ripples form slightly elevated rim, planned off blocks ",5,4-10,0.26,
+Alvin,379,11,<,0.5,"Shallow rimless sandy depression, nooutcrop, ripples form rim",5,4-10,0.24,
+Potato Furrow,379,1.7,,0.1,"Shallow, sandy depression, slightly elevatedrim, small ripples in bottom,  ripples modifyrim",4,2-4,0.08,
+Jason,381,12,<,0.5,"Shallow rimless sandy depression, nooutcrop, ripples form rim",5,4-10,0.27,
+Trieste,383,12,<,1,"Sandy rimless depression, few planned offblocks, ripples encroach into crater",5,4-10,0.2,
+Naturaliste,389,8,<,1,"Blocky & planned off interior wall, sandyfloors, ripples form elevated rim, sparseplanned off ejecta",4,2-4,0.2,
+"Géographe, Investigator",389,10.5,<,1,"Blocky & planned off interior wall, sandyfloors, ripples form elevated rim, sparse planned off ejecta",4,2-4,0.125,+
+Gauss,397,10,<,0.5,"Sandy rimless depression, no ejecta blocks,ripples overtake rim",5,4-10,0.21,
+Vostock,399,40,<,1,"Ripple filled slight depression, rim definedby circular planned off ejecta blocks, ripplespervade interior",6,10-20,0.47,1
+James Caird,408,15,~,1,"Sandy rimless depression, no ejecta, ripples form rim",5,4-10,0.29,
+Nina,414,6,~<,1,"Sandy rimmed depression, planned off blocks in portion of interior wall and ejecta",4,2-4,0.07,
+Vega,414,8,>,0.5,"Blocky interior wall, some rim & ejecta blocks planned off, ripples modify rim",3,0.6-2,1.1,1
+Viking,421,15,,3,"Blocky raised rim, dark sandy interior, ejecta blocks mostly planned off, ripples merge with rim",3,0.6-2,0,1
+Voyager,423,18,,1,"Blocky interior wall, sandy interior, slightly elevated rim, ejecta blocks planed off, sandy interior",4,2-4,0.87,1
+Snoopy,616,9,<,0.5,"Ripples make rim, flat outcrop floor",6,10-20,0.09,
+NW Beagle,878,11,<,1,"Mostly planned off outcrop and sand form elevated rim, sandy interior, mostly planned off ejecta, some blocky, ripples merge with rim",3,0.6-2,1.2,
+Beagle,898,30,<,4,"Mostly planned off outcrop in elevated rim, mostly planned off ejecta, sandy interior with ripples, ripples merge with rim",3,0.6-2,2,
+Emma Dean,931,16,,1,"Mostly sandy crater with elevated rim, scattered outcrop mostly planned off, ripplesalong rim",4,2-4,0.73,
+Kitty Clyde’s Sister,943,46,<,1,"Rimless3 shallow depression, rim defined by ripples, few planned off  blocks, ripples pervade interior of crater",6,20,0.55,
+Victoria,952,750,,75,"Serrated uplifted outcrop rim, sandy interior with dunes, smooth sand annulus-resurfaced ejecta, rim erosionally widened to 150 m, infilled with 50 m sand [Grant et al., 2008]",5,4-10,6.4,2
+Granada,1160,3,,0.3,"Blocky ejecta crater on Victoria annulus, small sandy interior, no uplifted rim, unusually large blocks, no ripples on annulus",3,0.6-2,0.3,
+Sputnik,1663,7,,0.7,"West interior wall blocky, raised sandy rim, planned off ejecta, sandy interior, adjacent toVictoria on annulus",4,2-4,0.23,
+Chatam,1668,6,,0.1,"Rimless mostly sandy depression, blocky interior wall, some blocks planned off, no ejecta, on Victoria annulus",4,2-4,0.37,
+Scotia,1673,4,,0.4,"Rimless mostly sandy depression, blocky interior wall, some blocks planned off, no ejecta, on Victoria annulus",4,2-4,0.13,
+Kainan Maru,1686,5,,0.5,"Sandy rimless depression, ripples along rim and interior",5,4-10,0.07,
+Ranger,1776,15,<,1,"Slightly elevated rim, sandy interior, partially blocky interior wall, ripple makes part of rim, planned off ejecta",4,2-4,0.67,
+Surveyor,1782,11,<,1,"Very slightly elevated rim, sandy interior, partially blocky interior wall, ripple makes part of rim, planned off ejecta",4,2-4,0.4,
+Half Moon,1792,12,,0.5,"Very slightly elevated rim, blocky interior wall, ripple makes part of rim, planned off ejecta",4,2-4,0.63,
+Resolution,1821,5.25,,0.5,"Blocky rim, blocky ejecta, sandy interior,superposed on ripples",1,<0.05-0.2,0,4
+Adventure,1851,5,,0.5,"Sandy uplifted rim, blocky interior wall, no ejecta, superposed on ripples",1,<0.05-0.2,0,4
+Rockingham,1852,2,,0.3,"Sandy crater with uplifted rim, no ejecta,superposed on ripples",1,<0.05-0.2,0,4
+Rayleigh,1852,2,,0.2,"Sandy crater with uplifted rim, no ejecta,superposed on ripples",1,<0.05-0.2,0,4
+Drake,1852,1.7,,0.2,"Sandy crater with uplifted rim, no ejecta,superposed on ripples",1,<0.05-0.2,0,4
+Diligence,1852,1,,0.1,"Blocky rim and ejecta, sandy interior,superposed on ripples",1,<0.05-0.2,0,3
+Discovery,1854,5.5,,0.6,"Sandy crater with some blocks, uplifted rim, no ejecta, superposed on ripples",1,<0.05-0.2,0,4
+Providence,1854,4,,,"Sandy crater with uplifted rim, no ejecta,superposed on ripples",1,<0.05-0.2,0,4
+Assistance,1854,1.5,,0.16,"Sandy crater with uplifted rim, no ejecta,superposed on ripples",1,<0.05-0.2,0,4
+Granbee,1854,5.8,,,"Sandy crater with uplifted rim, some ejecta blocks, superposed on ripples",1,<0.05-0.2,0,4
+Pembroke,1856,10,,0.5,"Slightly uplifted rim, sandy interior, blocky interior rim, planned off ejecta, ripples form part of rim",4,2-4,0.5,
+Kaikos,1950,6,~,1,"Blocky uplifted rim and interior wall, blocky ejecta, some blocks planned off, sandy interior",2,0.2-0.6,0.5,4
+Nerius,2011,9,~,2,"Blocky uplifted rim and interior wall, blocky ejecta, some blocks planned off, sandy interior",2,0.2-0.6,0,4
+Nautilus,2011,6,~,1,"Blocky uplifted rim and interior wall, blocky ejecta, some blocks planned off, sandy interior,ripples merge with rim",2,0.2-0.6,0.5,4
+Gjoa,2014,4,,0.6,"Mostly sandy with uplifted rim, some interiorblocks, some planned off, ripples overtake rim",4,2-4,0.07,
+Falcon,2020,2,,0.1,"Blocky rim and ejecta, some planned off,sandy floor, slight rim",4,2-4,0.1,
+Trinidad,2047,8,,0.5,"Blocky rim and ejecta some planned offsandy floor, slight rim",4,2-4,0.37,
+Concepción,2139-2178,10,,1,"Very fresh rayed crater, ejecta blocks on top of ripples, some blocks etched and sand deposited between ejecta blocks, sandy interior",1,~0.1,10,4
+San Antonio W&E,2199,20,,2,"Sandy & blocky uplifted rim, sandy interior, ejecta planned off, ripples form & modify rim",4,2-4,0.67,
+Kitty Hawk,2324,5.5,,0.5,"Sandy depressions, rims formed by ripples",5,4-10,0.06,*
+unnamed,unlisted,2.5,,0.05,no ejecta,,0.1,0.13,*
+Lightening,2328,7,,0.5,"Sandy depression, mostly planned off outcrop along portion of interior wall, rim formed by ripples, no ejecta",5,4-10,0.13,
+Aurora 7,2334,20,<,0.5,"Circular ring of planned off blocks, large ripples through crater, sandy interior, no ejecta",6,10-20,0.18,
+Gabriel,2363,7,<,0.2,"Slight depression surrounded by circular ring of mostly planned off blocks, sandy interior ripple forms portion of rim, no ejecta",5,4-10,0.17,
+Virginia,2401,8,<,0.5,"Slight sandy depression surrounded by circularring of mostly planned off blocks, no ejecta",5,4-10,0.16,
+Southern Cross,2403,5,,0.7,"Partially blocky and sandy depression, blocksmostly planned off, no ejecta, ripples form partof rim",5,4-10,0.04,
+Paramore ,2409,6,,0.3,"Doublet sandy depressions, slightly elevated rim, no ejecta, ripples merge with rim",4,2-4,0.3,*
+Golden Hind,2410,7,,0.3,"Shallow almost rimless sandy depression, slightly elevated rim, ripples merge with rim, no ejecta",5,4-10,0.16,
+Yankee Clipper,2410,10,,1,"Sandy depression with elevated rim, few mostly planned off blocks, ripples merge with rim",4,2-4,0.33,
+Intrepid,2416,18,,1.5,"Blocky elevated rim, blocks in rim and ejecta mostly planed off, ripples merge with rim, sandy interior",3,0.6-2,2.1,+
+Hecla,2429,8,,0.2,"Shallow sandy depression with slightly elevated rim, planned off blocks on portion of interior wall, ripple form rim, no ejecta",5,4-10,0.2,
+Fury,2433,7,,0.3,"Shallow sandy depression with slight rim, ejecta and interior wall blocks planned off, ripples modify rim",5,4-10,0.16,
+Vanguard,2437,6.66666666666667,<,0.5,"Shallow sandy depressions without elevated rims, planned off blocks in interior wall, ripples merge and modify rims, no ejecta",5,4-10,0.33,*
+Voskhod,2441,15,,0.6,"Sandy depression with slightly elevated rim, few planned off blocks in small portion of rim, ripples form part of rim, no ejecta",5,4-10,0.34,
+Salyut,2442,9,,0.5,"Shallow rimless sandy depression, ripples modify and form rim, no ejecta",5,6-9,0.09,
+Santa Maria,2453,93,,16,"Elevated rim, sandy interior with dunes, mostly planned off ejecta blocks in rim and adjacent, blocks in rays are planned off within 1 crater diameter, secondaries outside 1 crater diameter, ripples overlie rays",3,0.6-2,2.6,
+Antarctic,2558,6,~,0.5,"Shallow sandy depressions, slight rims, no ejecta, ripples merge with rim",4,2-4,0.23,*
+Casper,2569,5,,0.4,"Shallow rimless depression, planned off blocks along interior wall and rim, no ejecta, ripples make up part of rim",5,4-10,0.09,
+Joliba,2579,20,,,"Blocky elevated rim that have been planed off, sandy interior, no ejecta",5,4-10,,
+Faith 7,2584,8,<,1,"Sandy rimless depression, no ejecta, ripples merge with rim",5,4-10,0.09,
+Sigma 7,2583,6,,0.5,"Sandy depression with elevated rim, no ejecta, ripples merge with rim",4,2-4,0.23,
+Friendship 7,2585,10,,1,"Blocky raised rim and ejecta mostly planned off, blocky interior wall, sandy interior, ripples modify rim",4,2-4,0.33,
+Freedom 7,2585,30,,1,"Blocky raised rim and ejecta mostly planned off, sandy interior, ripples merge with rim",4,2-4,1.7,
+Molly Brown,2589,6,~,1,"Sandy depression, slightly elevated rim, no ejecta, ripples merge with rim",4,2-4,0.07,
+Skylab,2594,9,,0.6,"Blocky ejecta and rim, blocks have relief, but have been etched and weathered, with abundant sand filling between, sandy interior",2,0.2-0.6,3,
+Aquarius,2600,8,,0.2,"Shallow rimless sandy depression, ripples formrim, no ejecta",6,10-20,0.2,
+Apollo 7,2602,3,,0.1,"Shallow rimless sandy depression, planned off blocks along part of rim, no ejecta",6,10-20,0.03,
+Gumdrop,2606,3.2,,0.3,"Sandy depression, slightly elevated rim, planned off blocks along part of rim, no ejecta",3,0.6-2,0.34,
+Gemini 4,2614,19,~,2,"Slightly elevated rim sandy depression, blocky interior wall, planed off blocks on rim, no ejecta, ripple forms part of rim,",5,4-10,0.26,
+Gemini 5,2621,19,~,2,"Slightly elevated rim, blocky interior wall, blocks on rim and ejecta in rays planed off, ejecta in rays, ripples modify rim and ejecta",4,2-4,0.6,
+Gemini 7,2627,12,,0.9,"Rimless, shallow depression, sandy interior, ripple forms part of rim, planned off blocks forms part of rim, no ejecta",6,10-20,0.1,
+Gemini 9,2628,23,<,1,"Almost rimless shallow depression, planned off blocks form rim, sandy interior, ripples merge with part of rim",6,10-20,0.24,
+Mariner 9,2663,25,,1,"Elevated rim, some planned off blocks in rim, sandy interior, no ejecta",4,2-4,1.3,
+Mariner 9W,2661,10,~,0.5,"Shallow sandy depression with slightly elevated rim, ripples merge with rim",4,2-4,0.5,
+Mariner 9S,2663,9,~,0.3,"Mostly sandy depression with slightly elevated rim, some planned off blocks along part of rim, no ejecta",4,2-4,0.5,
+Mariner 10,2663,2,,0.1,"Blocky rim and ejecta that is weathered but not planed off, sandy interior",3,0.6-2,0.3,
+Chikyu,2664,15,~,1,"Shallow rimless depression, mostly sandy, some planned off blocks along interior wall, no ejecta",5,4-10,0.29,
+Spider,2668,5,<,0.1,"Shallow rimless depression in planned off outcrop, sandy interior, no ejecta",5,4-10,0.13,
+Pathfinder,2670,39,,0.1,"Ripple filled shallow depression, large sand dune to SW, no ejecta",6,10-20,0.51,
