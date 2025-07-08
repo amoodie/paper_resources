@@ -3,7 +3,7 @@
 
 ## Manuscript
 
-Moodie, Andrew and Goudge, Timothy. *Fluvial reworking eliminates small craters, but does not meaningfully bias the Mars interbedded-crater record*. In review, as of Nov 2023. 
+Moodie, Andrew and Goudge, Timothy. *Fluvial reworking eliminates small craters, but does not meaningfully bias the Mars interbedded-crater record*. Journal of Geophysical Research: Planets. (2025). https://doi.org/10.1029/2023JE008183.
 
 
 ## Delta model
